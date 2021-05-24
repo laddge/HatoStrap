@@ -1,2 +1,2 @@
 # HatoStrap
-An awesome theme for WordPress
+An awesome Wordpress theme with Bootstrap

@@ -4,6 +4,7 @@
         Copyright &copy; <?php echo date('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a> All Rights Reserved.
         </small>
     </footer>
+    <?php wp_footer(); ?>
 </body>
 
 </html>

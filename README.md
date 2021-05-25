@@ -1,2 +1,2 @@
 # HatoStrap
-An awesome Wordpress theme with Bootstrap
+Bootstrapを使ったWordPressのテーマを開発しています。

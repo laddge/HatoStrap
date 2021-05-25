@@ -3,8 +3,18 @@ Theme Name: HatoStrap
 Theme URL: https://github.com/laddge/HatoStrap.git
 Description: An awesome WordPress theme with Bootstrap
 Author: Laddge
-Version: v0.0.6
+Version: v0.1.0
 Tags: Bootstrap
 License: GNU General Public License v2 or later
 License URI: LICENSE
 */
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  margin-top:auto;
+}

@@ -7,7 +7,7 @@
                     <h5 class="card-title"><?php the_title(); ?></h5>
                     <p class="card-text"><?php the_excerpt(); ?></p>
                     <div class="text-right">
-                        <a href="<?php the_permalink(); ?>" class="btn btn-primary">記事を閲覧</a>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-outline-primary">記事を閲覧</a>
                     </div>
                 </div>
             </div>

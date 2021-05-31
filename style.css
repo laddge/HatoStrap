@@ -18,3 +18,15 @@ body{
 footer{
   margin-top:auto;
 }
+
+.cover-img-wrapper {
+  position: relative;
+}
+
+.cover-img {
+  object-fit: cover;
+  object-position: 50% 0%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

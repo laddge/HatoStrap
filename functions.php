@@ -14,5 +14,6 @@ function mybootstrap_enqueue_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'mybootstrap_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'mybootstrap_enqueue_scripts' );
+add_theme_support('post-thumbnails');
 
 ?>

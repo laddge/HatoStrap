@@ -1,3 +1,4 @@
+    </div>
     <footer class="footer text-light text-center bg-dark mt-2 py-2">
         <small>
         Designed by <a href="https://github.com/laddge/HatoStrap" class="text-white">Laddge</a>.<br>

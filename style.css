@@ -9,8 +9,14 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 */
 
-body{
+body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-contents {
+  margin-bottom: auto;
 }
 
 .cover-img-wrapper {

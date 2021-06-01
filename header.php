@@ -49,3 +49,4 @@
             </div>
         </nav>
     </header>
+    <div class="main-contents">

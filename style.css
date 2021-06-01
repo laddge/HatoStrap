@@ -19,12 +19,12 @@ body {
   margin-bottom: auto;
 }
 
-.cover-img-wrapper {
+.post-thumbnail-wrapper {
   position: relative;
 }
 
-.cover-img {
-  object-fit: cover;
+.post-thumbnail {
+  object-fit: contain;
   object-position: 50% 0%;
   position: absolute;
   width: 100%;

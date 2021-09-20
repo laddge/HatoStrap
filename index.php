@@ -2,7 +2,7 @@
 <div class="row mx-2">
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
-            <div class="card col-md-9 mx-auto mt-2 px-0">
+            <div class="card col-md-7 mx-auto mt-2 px-0">
                 <div class="card-img-top bg-light post-thumbnail-wrapper" style="height: 180px; width: 100%;">
                     <?php if (has_post_thumbnail()) : ?>
                         <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php get_the_title(); ?>" class="post-thumbnail">
@@ -14,12 +14,14 @@
                         </div>
                     <?php endif; ?>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title"><?php the_title(); ?></h5>
-                    <p class="card-text"><?php the_excerpt(); ?></p>
-                    <div class="text-right">
-                        <a href="<?php the_permalink(); ?>" class="btn btn-outline-primary">記事を閲覧</a>
+                <div class="card-body pb-0">
+                    <div class="row">
+                        <h4 class="card-title col mt-1"><?php the_title(); ?></h4>
+                        <div class="col-auto">
+                            <a href="<?php the_permalink(); ?>" class="btn btn-outline-primary">記事を閲覧 &gt;</a>
+                        </div>
                     </div>
+                    <p class="card-text"><?php the_excerpt(); ?></p>
                 </div>
             </div>
         <?php endwhile; ?>

@@ -9,7 +9,7 @@
 
 <body <?php body_class('h-100');?>>
     <div class="d-flex flex-column h-100">
-        <div class="flex-row">
+        <div class="flex-row mb-2">
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">

@@ -9,16 +9,6 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 */
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-contents {
-  margin-bottom: auto;
-}
-
 .post-thumbnail-wrapper {
   position: relative;
 }
